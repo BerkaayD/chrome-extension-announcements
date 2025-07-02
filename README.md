@@ -1,7 +1,4 @@
-
 # Chrome Extension Announcements
-
-![Extension Icon](logo.png)  
 A Chrome extension that displays announcements from a FreshRSS server with admin management capabilities.
 
 ## 🔍 Overview
