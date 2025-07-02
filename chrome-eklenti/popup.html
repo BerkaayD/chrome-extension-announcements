@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ostim Teknik Üniversitesi Duyurular</title>
+    <style>
+        h3 {
+            display: flex;
+            padding-top: 20px;
+            justify-content: center;
+            padding-bottom: 25px;
+            border-block: double;
+            color: #2c3e50;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        body {
+            width: 500px;
+            padding: 15px;
+            font-family: Arial, sans-serif;
+            padding-bottom: 15px;
+            max-height: 550px;
+            overflow-y: auto;
+        }
+
+        div {
+            display: block;
+            justify-content: center;
+            margin-top: 2px;
+        }
+
+        .message {
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            color: #777;
+        }
+
+        .error-message {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+
+        .announcement p a {
+            display: block;
+            text-decoration: none;
+            color: #007bff;
+            padding: 5px 0;
+        }
+
+        .announcement p a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>OSTİM TEKNİK ÜNİVERSİTESİ DUYURULAR</h3>
+    <br>
+    <div id="Container">
+        <p class="message" id="message">Yükleniyor...</p>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
